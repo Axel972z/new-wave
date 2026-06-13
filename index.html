@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>New Wave Energies</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══ NAV ═══ -->
+<nav id="nav">
+  <a class="logo" href="#">
+    <svg viewBox="0 0 64 64" fill="none">
+      <path class="house" d="M10 34L32 14L54 34" stroke="#fff" stroke-width="4.4" stroke-linejoin="round" stroke-linecap="round"/>
+      <path class="house" d="M14 33V52H50V33" stroke="#fff" stroke-width="4.4" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M19 44C24 36 28 36 32 44S40 52 45 44" stroke="#9FC90D" stroke-width="4.6" stroke-linecap="round"/>
+    </svg>
+    <div>
+      <div class="nw">new wave</div>
+      <div class="en">ENERGIES</div>
+    </div>
+  </a>
+  <span class="nav-tag">Démo</span>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<header class="hero">
+  <div class="hero-waves" aria-hidden="true">
+    <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+      <path id="hw1" d="M-100 520C260 140 520 820 820 470S1230 90 1560 470" fill="none" stroke="#9FC90D" stroke-width="130" stroke-linecap="round" opacity=".18"/>
+      <path id="hw2" d="M-100 670C320 320 620 960 920 640S1280 300 1560 640" fill="none" stroke="#9FC90D" stroke-width="58" stroke-linecap="round" opacity=".12"/>
+      <path id="hw3" d="M-100 340C220 -10 470 660 720 330S1120 -10 1560 330" fill="none" stroke="#FC6347" stroke-width="26" stroke-linecap="round" opacity=".14"/>
+    </svg>
+  </div>
+
+  <div class="hero-inner">
+    <span class="eyebrow" id="eyebrow">Charte graphique · Édition · Motion</span>
+    <h1>
+      <span class="line"><span>New Wave</span></span>
+      <span class="line"><span><em>Energies</em></span></span>
+    </h1>
+    <div class="baseline" id="baseline">Ma rénovation énergétique</div>
+    <p class="hero-sub" id="herosub">
+      Déclinaison d'un livret commercial
+    </p>
+  </div>
+
+  <div class="scroll-hint" id="scrollhint">
+    <span>DÉFILER</span>
+    <div class="hint-line"></div>
+  </div>
+</header>
+
+<!-- ═══ MARQUEE ═══ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track" id="mqtrack"></div>
+</div>
+
+<!-- ═══ LE LIVRE ═══ -->
+<section class="book-section" id="booksec">
+  <div class="book-sticky">
+    <div class="book-head">
+      <div class="book-eyebrow rv">Le livret</div>
+      <h2 class="rv">Deux pages, <em>une identité</em></h2>
+    </div>
+
+    <div class="book-stage">
+      <div class="book" id="book">
+        <div class="page page-left"  id="pgL"><img src="flyer1.png" alt="Page 6 — Offre photovoltaïque"></div>
+        <div class="spine" id="spine"></div>
+        <div class="page page-right" id="pgR"><img src="flyer2.png" alt="Page 7 — Offres chauffage"></div>
+      </div>
+    </div>
+
+    <div class="book-caption" id="bookcap">
+      <span class="cap-pill"><b>P.6</b> - Photovoltaïque 3 à 36 kWc</span>
+      <span class="cap-pill"><b>P.7</b> - Chauffage gaz & granulés</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CHARTE ═══ -->
+<section class="charte">
+  <div class="charte-wave" aria-hidden="true">
+    <svg viewBox="0 0 1440 700" preserveAspectRatio="xMidYMid slice">
+      <path id="cw" d="M-100 360C220 80 520 640 820 350S1230 80 1560 350" fill="none" stroke="#9FC90D" stroke-width="170" stroke-linecap="round"/>
+    </svg>
+  </div>
+
+  <div class="charte-inner">
+    <div class="charte-head rv">
+      <div class="book-eyebrow">Les fondamentaux</div>
+      <h2>Une charte, <em>trois couleurs</em></h2>
+    </div>
+
+    <div class="charte-grid">
+      <div class="swatch rv">
+        <div class="dot" style="background:#003058"></div>
+        <h3>Bleu nuit</h3>
+        <div class="hex">#003058</div>
+        <p>Neutralise l'ensemble et crée le contraste avec les couleurs claires.</p>
+      </div>
+      <div class="swatch rv">
+        <div class="dot" style="background:#9FC90D"></div>
+        <h3>Vert tendre</h3>
+        <div class="hex">#9FC90D</div>
+        <p>Associe la marque aux enjeux écologiques et d'économie d'énergie.</p>
+      </div>
+      <div class="swatch rv">
+        <div class="dot" style="background:#FC6347"></div>
+        <h3>Orange corail</h3>
+        <div class="hex">#FC6347</div>
+        <p>Couleur de relance : appels à l'action et informations clés.</p>
+      </div>
+    </div>
+
+    <div class="typo-card rv">
+      <div class="typo-aa">Aa</div>
+      <div class="typo-info">
+        <h3>MUSEO SANS ROUNDED</h3>
+        <p>Une seule famille pour tous les supports, lisible même sur les petits corps.
+        Graisse 300 pour le texte courant, 700 et 900 pour les titrages.</p>
+        <div class="typo-weights">
+          <span class="w300">300</span><span class="w700">700</span><span class="w900">900</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ENDCAP ═══ -->
+<section class="endcap">
+  <div class="endcap-wave" aria-hidden="true">
+    <svg viewBox="0 0 1440 600" preserveAspectRatio="xMidYMid slice">
+      <path id="ew" d="M-100 310C260 60 600 560 910 300S1310 60 1560 300" fill="none" stroke="#9FC90D" stroke-width="110" stroke-linecap="round"/>
+    </svg>
+  </div>
+  <div class="endcap-inner rv">
+    <h2>Rejoignez la <em>nouvelle vague</em></h2>
+    <p>Un fil conducteur graphique</p>
+  </div>
+</section>
+
+<footer>
+  <b>Démo non commerciale</b>
+</footer>
+
+<script src="vendor.min.js"></script>
+<script>
+gsap.registerPlugin(ScrollTrigger);
+
+/* ── Lenis smooth scroll ── */
+const lenis = new Lenis({ duration: 1.15, easing: t => Math.min(1, 1.001 - Math.pow(2, -10*t)) });
+lenis.on('scroll', ScrollTrigger.update);
+gsap.ticker.add(time => lenis.raf(time * 1000));
+gsap.ticker.lagSmoothing(0);
+
+/* ── Nav solid on scroll ── */
+const nav = document.getElementById('nav');
+ScrollTrigger.create({
+  start: 80, end: 'max',
+  onUpdate: self => nav.classList.toggle('solid', self.scroll() > 80),
+});
+
+/* ── HERO intro timeline ── */
+function drawSetup(sel){
+  const el = document.querySelector(sel);
+  const len = el.getTotalLength();
+  gsap.set(el, { strokeDasharray: len, strokeDashoffset: len });
+  return el;
+}
+const hw1 = drawSetup('#hw1'), hw2 = drawSetup('#hw2'), hw3 = drawSetup('#hw3');
+
+const intro = gsap.timeline({ defaults: { ease: 'power3.out' } });
+intro
+  .to(hw1, { strokeDashoffset: 0, duration: 2.2, ease: 'power2.inOut' }, 0.1)
+  .to(hw2, { strokeDashoffset: 0, duration: 2.6, ease: 'power2.inOut' }, 0.25)
+  .to(hw3, { strokeDashoffset: 0, duration: 2.0, ease: 'power2.inOut' }, 0.4)
+  .to('#eyebrow',   { opacity: 1, y: 0, duration: .6 }, 0.25)
+  .to('.hero h1 .line span', { y: 0, duration: .9, stagger: .12, ease: 'power4.out' }, 0.4)
+  .to('#baseline',  { opacity: 1, y: 0, duration: .6 }, 0.95)
+  .to('#herosub',   { opacity: 1, y: 0, duration: .6 }, 1.1)
+  .to('#scrollhint',{ opacity: 1, duration: .6 }, 1.4);
+
+/* ── Hero parallax out ── */
+gsap.to('.hero-inner', {
+  yPercent: -18, opacity: .25, ease: 'none',
+  scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true },
+});
+
+/* ── Marquee ── */
+const words = ['Photovoltaïque','Chauffage','Rénovation énergétique','RGE 2025','Stockage virtuel','Granulés'];
+const track = document.getElementById('mqtrack');
+track.innerHTML = Array(3).fill(words.map(w => `<span>${w}</span>`).join('')).join('');
+const third = track.scrollWidth / 3;
+gsap.to(track, { x: -third, duration: 22, ease: 'none', repeat: -1 });
+
+/* ── LE LIVRE : ouverture 3D scrubée ── */
+const isMobile = matchMedia('(max-width:760px)').matches;
+if (!isMobile) {
+  gsap.set('#pgL', { rotationY:  76, '--shade': .85 });
+  gsap.set('#pgR', { rotationY: -76, '--shade': .85 });
+
+  const bookTL = gsap.timeline({
+    scrollTrigger: {
+      trigger: '#booksec',
+      start: 'top top',
+      end: '+=80%',
+      scrub: 0.8,
+      pin: '.book-sticky',
+      anticipatePin: 1,
+    },
+  });
+  bookTL
+    .to('#pgL', { rotationY: 0, '--shade': 0, ease: 'power2.out', duration: 1 }, 0)
+    .to('#pgR', { rotationY: 0, '--shade': 0, ease: 'power2.out', duration: 1 }, 0)
+    .to('#spine', { '--spine': 0.25, ease: 'none', duration: 1 }, 0)
+    .fromTo('#book', { scale: .94 }, { scale: 1, ease: 'power1.out', duration: 1 }, 0)
+    .to('#bookcap', { opacity: 1, y: 0, duration: .35, ease: 'power2.out' }, .72);
+} else {
+  gsap.set('#bookcap', { opacity: 1, y: 0 });
+}
+
+/* ── Charte wave scrub ── */
+const cw = drawSetup('#cw');
+gsap.to(cw, {
+  strokeDashoffset: 0, ease: 'none',
+  scrollTrigger: { trigger: '.charte', start: 'top 80%', end: 'center 35%', scrub: 1 },
+});
+
+/* ── Endcap wave scrub ── */
+const ew = drawSetup('#ew');
+gsap.to(ew, {
+  strokeDashoffset: 0, ease: 'none',
+  scrollTrigger: { trigger: '.endcap', start: 'top 90%', end: 'center 50%', scrub: 1 },
+});
+
+/* ── Generic reveals ── */
+gsap.utils.toArray('.rv').forEach(el => {
+  gsap.to(el, {
+    opacity: 1, y: 0, duration: .8, ease: 'power3.out',
+    scrollTrigger: { trigger: el, start: 'top 86%' },
+  });
+});
+</script>
+</body>
+</html>
