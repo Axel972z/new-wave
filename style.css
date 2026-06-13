@@ -21,14 +21,12 @@ nav{
   transition:background .4s,box-shadow .4s;
 }
 nav.solid{background:rgba(255,255,255,.93);backdrop-filter:blur(14px);box-shadow:0 2px 26px rgba(0,48,88,.10)}
-.logo{display:flex;align-items:flex-end;gap:9px;text-decoration:none}
-.logo svg{width:34px;height:34px}
-.logo .nw{font-weight:700;font-size:10px;color:var(--vert);letter-spacing:.1em;text-transform:uppercase;line-height:1}
-.logo .en{font-weight:900;font-size:15px;letter-spacing:.07em;transition:color .4s}
-nav:not(.solid) .logo .en{color:#fff}
-nav.solid  .logo .en{color:var(--nuit)}
-nav:not(.solid) .logo path.house{stroke:#fff}
-nav.solid  .logo path.house{stroke:var(--nuit)}
+.logo{display:flex;align-items:center;text-decoration:none}
+.logo-img{height:40px;width:auto;display:block}
+/* hero sombre -> logo blanc ; nav blanche au scroll -> logo couleur */
+.logo-color{display:none}
+nav.solid .logo-white{display:none}
+nav.solid .logo-color{display:block}
 .nav-tag{
   font-weight:900;font-size:11px;letter-spacing:.14em;text-transform:uppercase;
   color:#fff;background:var(--corail);
